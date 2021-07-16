@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.booking{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://media.cntraveler.com/photos/5f3484e301aedaf2771c644b/16:9/w_4239,h_2384,c_limit/RoadtripPlaylist-GettyImages-1192260535.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.journey{
+    width: 100%;
+    max-width: 400px;
+    padding: 60px 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.journey h1{
+    margin-bottom: 20px;
+    color: #03112e;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container input{
+    font-size: 24px;
+    margin: 10px 0;
+    padding: 5px 10px;
+}
+#booking{
+    height: 48px;
+    background-color: #03112e;
+    border: none;
+    color: #fff;
+}
+.details{
+    height: 100vh;
+}
+#map_journey{
+    width: 100%;
+    height: 100vh;
+}
